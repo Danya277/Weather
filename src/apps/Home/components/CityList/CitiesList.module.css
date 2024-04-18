@@ -1,0 +1,19 @@
+.citylist {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.searchBar {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+.searchBar:focus {
+    border-color: #00ba73;
+  }

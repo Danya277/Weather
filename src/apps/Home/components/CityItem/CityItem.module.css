@@ -1,0 +1,8 @@
+.cityitem {
+    width: 22%;
+    margin-bottom: 30px;
+}
+
+.cityitem img {
+    max-width: 100%;
+}

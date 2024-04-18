@@ -1,0 +1,31 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header {
+    padding: 15px 0;
+    background: green;
+
+}
+
+.logo {
+    color: #fff;
+    font-size: 25px;
+}
+

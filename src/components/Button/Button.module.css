@@ -1,0 +1,23 @@
+.btn {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.contained {
+    background: green;
+    color: #fff;
+ 
+}
+
+.outlined {
+    border: 1px solid green;
+    color: green;
+}
+
+.text {
+    color: green;
+}

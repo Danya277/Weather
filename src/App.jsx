@@ -13,10 +13,8 @@ const App = () => {
       <BrowserRouter>
       <AuthContextProvider>
         <CitiesContextProvider>
-          <SearchContextProvider>
             <Layout />
             <Modal/>
-          </SearchContextProvider>
         </CitiesContextProvider>
         </AuthContextProvider>
       </BrowserRouter>

@@ -1,13 +1,12 @@
-import { useContext } from "react"
-import styles from "./CityDetails.module.css"
-import { citiesContext } from "../../../../contexts/CitiesContext"
-import { useNavigate } from "react-router-dom"
-import { useState } from "react"
-import { useEffect } from "react"
-import axios from "axios"
+import { useContext, useState } from "react";
+import { CityItem } from "../CityItem";
+import { citiesContext } from "../../../../contexts/CitiesContext";
+import styles from "./Weather.module.css"
+import { TextField } from "../../../../components";
+import { useEffect } from "react";
 
-const CityDetails = () => {
-    const [weatherData, setWeatherData] = useState(null);
+const CitiesList = () => {
+  const [weatherData, setWeatherData] = useState(null);
     const {city} = useContext(citiesContext)
     let key = "e69921f07aeb49f2bdc172803242004"
     let url = `http://api.weatherapi.com/v1/current.json?key=${key}&q=Almaty&aqi=no`
@@ -38,6 +37,7 @@ const CityDetails = () => {
           <p>Loading weather data...</p>
         )}
       </div>
-    );
-  };
-export default CityDetails
+  );
+};
+
+export default CitiesList;

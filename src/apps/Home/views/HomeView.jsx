@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import { CityList } from "../components/CityList";
+import { Weather } from "../components/Weather";
 import { citiesContext } from "../../../contexts/CitiesContext";
 import styles from "./HomeView.module.css"
 
@@ -11,7 +11,7 @@ const HomeView = () => {
 
   return (
     <div className={styles.container}>
-      <CityList />
+      <Weather />
     </div>
   );
 };

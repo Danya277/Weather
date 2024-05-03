@@ -7,9 +7,8 @@ const CityItem = ({ city }) => {
   const navigate = useNavigate()
   return (
     <li className={styles.cityitem}>
-      <h2>{city.name}</h2>
-      <p>{slicedCityBody}</p>
-      <Button variant="contained" onClick={() => navigate(`/cities/${city.id}`)}>More</Button>
+      <h2>{city.title}</h2>
+      <Button variant="contained" onClick={() => navigate(`/cities/${city.id}`)}>Choose</Button>
     </li>
   );
 };

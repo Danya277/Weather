@@ -10,17 +10,14 @@ const Header = () => {
     
     <header className={styles.header}> 
       <div className={styles.container}>
-        <div className={styles.logo}>Logo</div>
+        <div className={styles.logo}>Weather</div>
         <nav className={styles.navigation}>
           <ul>
             <li>
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <AuthButtons/>
+              <Link to="/about">Cities</Link>
             </li>
           </ul>
         </nav>

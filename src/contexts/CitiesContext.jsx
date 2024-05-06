@@ -50,7 +50,7 @@ const CitiesContextProvider = (props) => {
       });
     } catch (e) {
       dispatch({
-        type: "GET_POST_BY_ID_ERROR",
+        type: "GET_CITY_BY_ID_ERROR",
         payload: "Такого города не существует :/"
       })
     }

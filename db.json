@@ -2,16 +2,53 @@
     "cities": [
         {
             "id": "1",
-            "title": "Bishkek",
-            "body": "quo deleniti praesentium dicta non quod\naut est molestias\nmolestias et officia quis nihil\nitaque dolorem quia"
-            ,"img": "https://cdn.pixabay.com/photo/2015/10/07/12/17/post-976115_1280.png"
+            "title": "Bishkek"
          },
-            {
+        {
             "id": "2",
-            "title": "almaty",
-            "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut",
-            "img": "https://cdn.pixabay.com/photo/2015/10/07/12/17/post-976115_1280.png" 
-            }
+            "title": "Almaty"
+        },
+        {
+            "id": "3",
+            "title": "London"
+         },
+        {
+            "id": "4",
+            "title": "Cheboksary"
+        },
+        {
+            "id": "5",
+            "title": "Tokyo"
+         },
+        {
+            "id": "6",
+            "title": "Moscow"
+        },
+        {
+            "id": "7",
+            "title": "Warsaw"
+         },
+        {
+            "id": "8",
+            "title": "Frankfurt"
+        },
+        {
+            "id": "9",
+            "title": "Talas"
+         },
+        {
+            "id": "10",
+            "title": "Astana"
+        },
+        {
+            "id": "11",
+            "title": "Singapore"
+         },
+        {
+            "id": "12",
+            "title": "Paris"
+        }
+        
     ],
     "users": []
 }

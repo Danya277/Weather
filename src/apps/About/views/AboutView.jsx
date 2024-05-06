@@ -10,7 +10,7 @@ const AboutView = () => {
   const [value, setValue] = useState('')
   // const [cities, setCitiesData] = useState([]);
   const { cities } = useContext(citiesContext);
-  
+  console.log(cities)
   const filteredCities = cities.filter(city => {
     return city.title.toLowerCase().includes(value.toLowerCase())
   })

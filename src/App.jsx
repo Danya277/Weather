@@ -5,7 +5,6 @@ import "./reset.css";
 import CitiesContextProvider from "./contexts/CitiesContext";
 import Modal from "./components/Modal/Modal";
 import AuthContextProvider from "./contexts/AuthContext";
-import SearchContextProvider from "./contexts/SearchContext";
 
 const App = () => {
   return (
